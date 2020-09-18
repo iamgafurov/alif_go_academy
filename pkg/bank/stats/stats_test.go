@@ -3,7 +3,7 @@ import (
 	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 	"fmt"
 )
-func statsTest(){
+func AvgTest(){
 	payments := []types.Payment{
 	types.Payment{
 		ID: 1,
@@ -25,4 +25,27 @@ func statsTest(){
 fmt.Println(Avg(payments))
 //Output: 1232
 }
-//c
+
+func TotalInCategoryTest(){
+	payments := []types.Payment{
+	types.Payment{
+		ID: 1,
+		Amount: 1232,
+		Category:"b",
+	},
+	types.Payment{
+		ID: 2,
+		Amount: 1232,
+	},
+	types.Payment{
+		ID: 3,
+		Category:"b",
+	},
+	types.Payment{
+		ID: 4,
+		Amount: 1232,
+	},
+	}
+fmt.Println(TotalInCategory(payments,"b"))
+//Output: 2464
+}
