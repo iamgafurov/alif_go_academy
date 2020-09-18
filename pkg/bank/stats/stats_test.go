@@ -25,3 +25,4 @@ func statsTest(){
 fmt.Println(Avg(payments))
 //Output: 1232
 }
+//c
