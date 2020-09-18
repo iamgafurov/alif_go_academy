@@ -1,6 +1,6 @@
 package card
 import (
-	"bank/pkg/bank/types"
+	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 )
 func Deposit(card *types.Card, amount types.Money) types.Card{
 	if(amount <= 50_000_00){

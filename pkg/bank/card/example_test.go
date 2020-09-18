@@ -1,6 +1,6 @@
 package card
 import (
-	"bank/pkg/bank/types"
+	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 	"fmt"
 )
 
