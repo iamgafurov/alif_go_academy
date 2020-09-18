@@ -1,6 +1,6 @@
 package stats
 import (
-	"bank/pkg/bank/types"
+	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 )
 func Avg(payments []types.Payment) types.Money{
 	sum:= types.Money(0)
