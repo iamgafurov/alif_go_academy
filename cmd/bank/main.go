@@ -1,7 +1,7 @@
 package main
 import (
-	"bank/pkg/bank/stats"
-	"bank/pkg/bank/types"
+	"github.com/iamgafurov/alif_go_academy/pkg/bank/stats"
+	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 	"fmt"
 )
 func main(){
