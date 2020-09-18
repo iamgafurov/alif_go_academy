@@ -35,14 +35,17 @@ func TotalInCategoryTest(){
 	},
 	types.Payment{
 		ID: 2,
+		Category: "ss",
 		Amount: 1232,
 	},
 	types.Payment{
 		ID: 3,
+		Amount:1232,
 		Category:"b",
 	},
 	types.Payment{
 		ID: 4,
+		Category:"g",
 		Amount: 1232,
 	},
 	}

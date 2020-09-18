@@ -8,22 +8,26 @@ func main(){
 	//result := card.AddBonus(&types.Card{Balance: 0, Active: true, MinBalance:10_000_00}, 3,30,365)
 	//fmt.Println(result.Balance)
 	payments := []types.Payment{
-	types.Payment{
-		ID: 1,
-		Amount: 1232,
-	},
-	types.Payment{
-		ID: 2,
-		Amount: 1232,
-	},
-	types.Payment{
-		ID: 3,
-		Amount: 1232,
-	},
-	types.Payment{
-		ID: 4,
-		Amount: 1232,
-	},
-	}
-fmt.Println(stats.Avg(payments))
+		types.Payment{
+			ID: 1,
+			Amount: 1232,
+			Category:"b",
+		},
+		types.Payment{
+			ID: 2,
+			Category: "ss",
+			Amount: 1232,
+		},
+		types.Payment{
+			ID: 3,
+			Amount:1232,
+			Category:"b",
+		},
+		types.Payment{
+			ID: 4,
+			Category:"g",
+			Amount: 1232,
+		},
+		}
+	fmt.Println(stats.TotalInCategory(payments,"b"))
 }
