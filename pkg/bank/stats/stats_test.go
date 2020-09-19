@@ -6,10 +6,6 @@ import (
 
 func AvgTest(){
 
-func statsTest(){
-
-func AvgTest(){
->>>>>>> master
 	payments := []types.Payment{
 	types.Payment{
 		ID: 1,
