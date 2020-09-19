@@ -1,10 +1,7 @@
 package card
 import (
-<<<<<<< HEAD
+ 	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
 	"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
-=======
-"github.com/iamgafurov/alif_go_academy/pkg/bank/types"
->>>>>>> master
 	"fmt"
 )
 
